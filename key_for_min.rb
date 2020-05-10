@@ -3,8 +3,8 @@
 
 def key_for_min_value(name_hash)
   result = nil
-  name_hash.each do |item|
-    puts "The item is #{item}"
+  name_hash.each do |key, value|
+    puts "The key is #{key}, and the value is #{value}"
     current = item
     if item < result || result == nil
       result = value
